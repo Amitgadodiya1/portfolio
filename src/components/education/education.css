@@ -1,0 +1,74 @@
+.qualify__container{
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr;
+  gap: 1rem;
+
+}
+
+.qualify__container > div{
+  background:var(--color-bg-varient);
+  padding:0 3rem;
+  border-radius: 2rem;
+  border:1px solid transparent;
+  transition: var(--transition);
+}
+.qualify__container > div:hover{
+  background: transparent;
+  border-color:var(--color-primary-varient);
+  cursor: default;
+}
+.qualify__container > div h3{
+  text-align: center;
+  margin-bottom:1rem;
+  color: var(--color-primary);
+}
+.qualify__container > div h2{
+  text-align: center;
+   margin-bottom:1rem;
+  color: var(--color-white);
+}
+.qualify__container > div h5{
+  text-align: center;
+   margin-bottom:1rem;
+  color: var(--color-white);
+}
+.qualify__content{
+  height: auto;
+}
+.qualify__details-icon{
+  margin-top: 9px;
+  margin-bottom: 3rem;
+  color: var(--color-primary);
+  width: 100%;
+  height: 15%;
+  
+}
+@media screen and (max-width: 1024px) {
+  .qualify__container{
+    grid-template-columns: 1fr;
+    gap: 1;
+  }
+  .qualify__container > div{
+    width: 80%;
+    padding: 2rem;
+    margin: 0 auto;
+  }
+  .qualify__content{
+    padding: 1rem;
+  }
+ 
+
+}
+
+
+/*=============MEDIA Queries small Devices+=============*/
+@media screen and (max-width: 600px){
+  .qualify__container{
+    gap: 1rem;
+  }
+  .qualify__container > div{
+    width: 100%;
+    padding: 2rem 1rem;
+  }
+
+}
