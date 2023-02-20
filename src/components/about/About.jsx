@@ -37,9 +37,6 @@ const About = () => {
             Problem solver and strong communicator eager to prove my value and
             talent at an emerging company. Motivated to advance and expand my
             skill set through targeted mentorship and challenging projects.
-            Problem solver and strong communicator eager to prove my value and
-            talent at an emerging company. Motivated to advance and expand my
-            skill set through targeted mentorship and challenging projects.
           </p>
 
           <a href="#contact" className="btn btn-primary">
